@@ -166,6 +166,11 @@ GEM
     pry-byebug (3.10.1)
       byebug (~> 11.0)
       pry (>= 0.13, < 0.15)
+    pry-doc (1.5.0)
+      pry (~> 0.11)
+      yard (~> 0.9.11)
+    pry-rails (0.3.11)
+      pry (>= 0.13.0)
     psych (5.2.2)
       date
       stringio
@@ -263,6 +268,7 @@ GEM
       base64
       websocket-extensions (>= 0.1.0)
     websocket-extensions (0.1.5)
+    yard (0.9.37)
     zeitwerk (2.6.18)
 
 PLATFORMS
@@ -283,6 +289,8 @@ DEPENDENCIES
   faker
   mysql2 (~> 0.5)
   pry-byebug
+  pry-doc
+  pry-rails
   puma (~> 5.0)
   rails (~> 7.0.8, >= 7.0.8.7)
   rspec-rails
